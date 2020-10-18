@@ -13,11 +13,11 @@
 <div>
 <iframe width="853" height="480" src="https://www.youtube.com/embed/0arvEmH88rU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<!-- disable / readonly / autofocus / required -->
+<!-- disable / readonly / autofocus / required / checked / multiple / selected -->
 	<div>
 	<fieldset>
 		<legend>&target;This is sample form &copy;</legend>
-		<form action="" method="POST">
+		<form action="" method="POST" enctype="multipart/form-data">
 		<label for="firstname">First Name</label>
 		<input type="text" name="firstname" id="firstname" class="" >
 		<br/><br/>
@@ -35,7 +35,7 @@
 		<input type="radio" name="gender" id="gender" class="" value="0">Female
 	<br/><br/>
 		<label for="checkbox">Choose Your Color</label>
-		<input type="checkbox" name="Color" id="Color" class="" value="red">Red
+		<input type="checkbox" name="Color" id="Color" class="" value="red" checked>Red
 		<input type="checkbox" name="Color" id="Color" class="" value="black">Black
 		<input type="checkbox" name="Color" id="Color" class="" value="blue">Blue
 		<input type="checkbox" name="Color" id="Color" class="" value="green">Green
@@ -60,6 +60,12 @@
 			<br/><br/>
 		<label for="datetime">Date&Time</label>
 		<input type="datetime-local" name="datetime" id="datetime" class="" >
+		<br/><br/>
+			<label for="nrcfile">NRC File</label>
+			<input type="file" name="nrcfile" id="nrcfile class">
+		<br/><br/>
+		<label for="nrcfile">NRC multi</label>
+			<input type="file" name="nrcfile" id="nrcfile class" multiple>
 		<br/><br/>
 		<input type="button" name="cancel" id="cancel" class="" value="Cancel">
 		<input type="reset" name="reset" id="reset" value="Reset">
