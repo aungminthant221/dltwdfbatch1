@@ -1,0 +1,33 @@
+/* Universal selector */
+*{
+	cursor: pointer;
+}
+
+
+.firstdiv{
+	font-size: 50px;
+	cursor: pointer;
+	height: 200px;
+	width: 400px;
+	background: silver;
+	opacity: 0.5
+	color:rgba(222,22,22,1.00);
+	/*border-style: solid;*/
+	border-style: dotted;
+	margin:100px auto;
+
+}
+
+.seconddiv{
+	color: green;
+	width: 500px;
+	height: 300px;
+	font-size: 40px;
+	background-image: url(../img/ace/aircraft-war-battle-air-forces-fairchild-republic-a-10-thunderbolt-ii-1080P-wallpaper-middle-size.jpg);
+	background-repeat: repeat;
+/*	background-repeat:no-repeat;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;*/
+	background-position: center;
+
+}

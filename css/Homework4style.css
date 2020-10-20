@@ -1,0 +1,61 @@
+.div1{
+	background-image: url(../img/homework/background.jpg);
+	color: white;
+	text-align: center;
+	position: absolute;
+	height: 700px;
+	width: 1366px;
+
+
+
+
+}
+
+.div2{
+	height: 250px;
+	width: 300px;
+	border:dotted;
+	margin: 190px 1005px;
+	background: rgba(255,255,255,0.12);
+	
+
+}
+.Username{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.Password{
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+
+.cancel{
+	margin-left: 127.5px;
+}
+
+.p2{
+	text-align: justify;
+}
+
+.h2{
+	text-shadow: -6px -4px 3px black;
+	margin-left: 70px;
+	margin-top: 20px;
+	font-size: 32px;
+}
+
+.Login,.Username,.Password{
+	text-shadow: -6px -4px 3px black;
+}
+.Login{
+	margin-top: -15px;
+}
+footer{
+	background: white;
+	color: blue;
+	text-align: right;
+	margin-right: 25px;
+	margin-top: -28px;
+	margin-left: 25px;
+}
